@@ -1,3 +1,6 @@
 function factorial(n) {
-  // ваш код...
+  let sum=1;
+  for (i=n; i>0; i--){
+     sum*=i}    
+  return sum
 }
