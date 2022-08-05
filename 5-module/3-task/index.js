@@ -1,10 +1,10 @@
 function initCarousel() {
-  rightButton = document.querySelector('.carousel__arrow_right')
-  leftButton = document.querySelector('.carousel__arrow_left')
-  carouselInner = document.querySelector('.carousel__inner')
-  offsetWidthParam = document.querySelector('.carousel__inner').offsetWidth
-  scrollWidthParam = document.querySelector('.carousel__inner').scrollWidth
-  offset = 0
+  let rightButton = document.querySelector('.carousel__arrow_right')
+  let leftButton = document.querySelector('.carousel__arrow_left')
+  let carouselInner = document.querySelector('.carousel__inner')
+  let offsetWidthParam = document.querySelector('.carousel__inner').offsetWidth
+  let scrollWidthParam = document.querySelector('.carousel__inner').scrollWidth
+  let offset = 0
  
   if (offset == 0) {
     leftButton.style.display = 'none' 

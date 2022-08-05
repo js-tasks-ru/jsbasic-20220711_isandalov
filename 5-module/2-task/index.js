@@ -1,6 +1,6 @@
 function toggleText() {
-  hideButton = document.querySelector('.toggle-text-button')
-  hideText = document.getElementById('text')
+  let hideButton = document.querySelector('.toggle-text-button')
+  let hideText = document.getElementById('text')
   hideButton.addEventListener('click', () => {
     if (!hideText.hasAttribute('hidden')) {
       hideText.setAttribute('hidden', '')
